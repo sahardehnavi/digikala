@@ -14,22 +14,24 @@ header {
       flex-wrap: row wrap;
   
       .center-logo {
-        width: 20%;
+        width: 15%;
         height: inherit;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
         padding: 10px;
+        padding-right: 16px;
         img {
-          width: 170px;
+          width: 100%;
         }
       }
       .center-search {
-        width: 60%;
+        width: 75%;
         height: inherit;
         position: relative;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
   
         input[type="text"] {
           width: 600px;
@@ -54,28 +56,30 @@ header {
         height: inherit;
         display: flex;
         align-items: center;
+        justify-content: flex-end;
         padding-right: 20px;
         column-gap: 15px;
+        padding-left: 20px;
         .center-register-link {
           display: block;
           width: 140px;
           height: 40px;
-          border: 1px solid lightgray;
+          border: 0.8px solid lightgray;
           display: flex;
           justify-content: center;
           align-items: center;
           column-gap: 5px;
           font-family: var(--fontfamily);
           font-size: 12px;
-          font-weight: 600;
-          color: #1b1b1b;
+         
+          color: #0c0c0c;
           text-decoration: none;
           border-radius: 7px;
           span {
             display: inline-block;
-            width: 2px;
+            width: 0.8px;
             height: 15px;
-            background-color: #1b1b1b;
+            background-color: #81858b;
           }
         }
         span {
@@ -91,11 +95,13 @@ header {
       width: 100%;
       display: flex;
       flex-flow: row wrap;
-      padding-right: 126px;
+
   
       .right {
-        width: 80%;
+        width: 85%;
         height: inherit;
+        padding-right: 16px;
+
   
         .nav {
           width: 100%;
@@ -104,6 +110,7 @@ header {
           flex-flow: row wrap;
           column-gap: 8px;
           align-items: center;
+          
           .nav-item {
             width: fit-content;
             height: inherit;
@@ -248,13 +255,13 @@ header {
         }
       }
       .left {
-        width: 20%;
+        width: 15%;
         height: inherit;
         display: flex;
         flex-flow: row wrap;
         column-gap: 10px;
         align-items: center;
-        padding-right: 10px;
+        padding-left: 16px;
         position: relative;
   
         label[for="modal"] {
