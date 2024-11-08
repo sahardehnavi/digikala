@@ -230,9 +230,6 @@
             color: whitesmoke;
             column-gap: 20px;
             align-items: center;
-
-            span {
-            }
             .news {
               border: 0.8px solid whitesmoke;
               display: flex;

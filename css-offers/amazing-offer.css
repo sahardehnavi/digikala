@@ -1,0 +1,180 @@
+.amazing-offer {
+  width: 100%;
+  height: 443px;
+
+  .amazing-offer-center {
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    background-color: crimson;
+    padding-left: 5px;
+    padding: 30px 0;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+
+      .amazing-first {
+        width: 100%;
+        height: 100%;
+        background-color: crimson;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+        .offer {
+          width: 120px;
+          height: 120px;
+        }
+        img {
+          width: 145px;
+          height: 145px;
+        }
+      }
+      .amazing-second {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding: 8px 5px;
+        row-gap: 3px;
+
+        .amazing-off {
+          width: 100%;
+          height: 26px;
+          img {
+            width: 116px;
+            height: 14px;
+          }
+        }
+        .amazing-pic {
+          width: 100%;
+          height: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+        .amazing-title {
+          width: 100%;
+          height: 52px;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          font-size: 12px;
+          font-family: var(--fontfamily);
+          color: #3f4064;
+          text-align: right;
+          padding-top: 10px;
+        }
+        .amazing-send {
+          width: 100%;
+          height: 24px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: flex-start;
+          img {
+            width: 18px;
+            height: 18px;
+          }
+          span {
+            font-size: 11px;
+            font-family: var(--fontfamily);
+            color: #646770;
+            padding-right: 10px;
+          }
+        }
+        .amzing-price {
+          width: 100%;
+          height: 33px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: center;
+          padding-top: 5px;
+          .right {
+            width: 20%;
+            height: 20px;
+            background-color: crimson;
+            font-size: 12px;
+            border-radius: 15px;
+            color: whitesmoke;
+            font-family: var(--fontfamily);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .center {
+            width: 70%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 16px;
+            font-family: var(--fontfamily);
+            color: #3f4064;
+          }
+          .left {
+            width: 10%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+        .amazing-price-offer {
+          width: 100%;
+          height: 26px;
+          font-size: 12px;
+          font-family: var(--fontfamily);
+          text-decoration: line-through;
+          color: #c0c2c5;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding-left: 40px;
+          padding-left: 20px;
+        }
+        .amazing-time {
+            width: 100%;
+            height: 30px;
+            font-size: 14px;
+            font-family: var(--fontfamily);
+            padding-top: 20px;
+            color: crimson;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
