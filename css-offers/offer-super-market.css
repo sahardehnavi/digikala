@@ -1,0 +1,122 @@
+.offer-super-market {
+  width: 100%;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  .offer-super-market-center {
+    width: 98%;
+    height: 100%;
+    background-image: url(../images/incredible-offers/offer-supermarket/bg-super.svg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-color: #ecefee;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 330px;
+    .right {
+      width: 463px;
+      height: 62px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+      .basket {
+        width: 66px;
+      }
+      .super-pic {
+        width: 250px;
+        height: 28px;
+        padding: 0 20px;
+      }
+      span {
+        width: 106px;
+        height: 28px;
+        font-size: 14px;
+        font-family: var(--fontfamily);
+        border-radius: 15px;
+        color: whitesmoke;
+        background-color: green;
+        text-align: center;
+        line-height: 28px;
+      }
+    }
+
+    .left {
+      width: 646px;
+      height: 74px;
+
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: left;
+      .pic {
+        width: 492px;
+        height: 74px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+
+        .pic-pic {
+          width: 74px;
+          height: 74px;
+          background-color: white;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          img{
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+          }
+          .offer-price{
+            width: 34px;
+            height: 20px;
+            background-color: crimson;
+            font-size: 12px;
+            font-family: var(--fontfamily);
+            color: whitesmoke;
+            border-radius: 30px;
+            position: absolute;
+            z-index: 2;
+            text-align: center;
+            line-height: 20px;
+            font-weight: 600;
+            right: 0;
+            bottom: 0;
+            
+
+
+        }
+
+        }
+        
+      }
+      .text {
+        width: 148px;
+        height: 50px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        column-gap: 10px;
+        justify-content: center;
+        border-radius: 30px;
+        span {
+          color: #029a49;
+          font-size: 12px;
+          font-family: var(--fontfamily);
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
